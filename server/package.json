@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@langchain/community": "^0.3.40",
+    "@langchain/core": "^0.3.44",
+    "@langchain/google-genai": "^0.2.3",
+    "@langchain/langgraph": "^0.2.63",
+    "cors": "^2.8.5",
+    "debug": "^4.4.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^12.7.0",
+    "fuse.js": "^7.1.0",
+    "langchain": "^0.3.21",
+    "nodemailer": "^6.10.1",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.1.5",
+    "pdfjs-dist": "^5.1.91"
+  }
+}
