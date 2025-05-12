@@ -1,0 +1,20 @@
+/* Targeted fix for the border gap issue */
+.MuiBox-root {
+  background-color: #121212;
+}
+
+.MuiSheet-root {
+  background-color: #121212;
+  /* Allow the sidebar border to be visible */
+  /* border-right: none !important; */
+}
+
+/* Fix for the gap between sidebar and main content */
+.MuiCssVarsProvider-root > .MuiBox-root {
+  background-color: #121212;
+}
+
+/* Ensure consistent background color */
+body, #root {
+  background-color: #121212;
+}
